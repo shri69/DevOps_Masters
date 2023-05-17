@@ -1,2 +1,4 @@
 
 Git commands
+ls= to list
+pwd= present working directory
