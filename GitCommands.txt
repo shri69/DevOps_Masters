@@ -2,3 +2,6 @@
 Git commands
 ls= to list
 pwd= present working directory
+ rm -rf "foldername" = to delete a folder
+  git add .&& git commit -am"your message" && git push =to coomy and push
+ 
