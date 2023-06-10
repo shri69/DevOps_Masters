@@ -1,0 +1,38 @@
+//////////////////////////////////Docker commands/////////////////////////////////////////////////
+
+   41  cat app.py 
+   42  cat Dockerfile 
+   43  docker ps
+   44  docker logs first
+   45  docker exec -it first bash
+   46  docker ps
+   47  docker stop first
+   48  docker ps
+   49  docker ps -a
+   50  docker rm first
+   51  docker ps -a
+   52  docker run -d --name first -p 8000:8080 first:1.0
+   53  docker ps -a
+   54  docker stats
+   55  docker ps -a
+   56  ls
+   57  docker cp Dockerfile first:/opt
+   58  docker exec -it first bash
+   59  ls
+   60  rm Dockerfile app.py 
+   61  ls
+   62  docker cp first:/opt/Dockerfile .
+   63  ls
+   64  docker cp first:/opt/app.py .
+   65  ls
+   66  vi app.py 
+   67  vi Dockerfile 
+   68  cd
+   69  git clone https://github.com/opencord/voltha.git
+   70  cd voltha/docker/ 73  docker images
+   74  docker tag first:1.0 rajendrait99/first:1.0
+   75  docker images
+   76  docker push rajendrait99/first:1.0
+   77  docker login
+   78  docker push rajendrait99/first:1.0
+https://codeshare.io/
